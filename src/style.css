@@ -7,3 +7,16 @@
 .hero-art{object-position:center;opacity:.85}.hero-shade{background:linear-gradient(90deg,#07110ce8 0%,#07110ca8 48%,#07110c28 100%),linear-gradient(0deg,#0b1210 0%,transparent 45%,#0b121035)}.motion-toggle{margin-left:auto;background:#0b121075;border:1px solid #b0c2ad66;color:#d3ddcb;padding:9px 12px;font: .75rem var(--mono);letter-spacing:.02em;min-height:40px}.motion-toggle:hover{border-color:var(--accent);color:var(--accent)}.qengine-feature{grid-template-columns:1fr 1.4fr;margin-top:60px}.product-points{list-style:none;padding:0;margin:24px 0}.product-points li{border-top:1px solid var(--line);padding:10px 0;font-size:.9rem;color:#c2cec0}.product-copy .product-status{font-size:.75rem;color:#b9c8ae}.qengine-media{position:relative}.qengine-media video{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}.qengine-motion{position:absolute;right:20px;top:20px;background:#0b1210bb}.objective-card{background:linear-gradient(90deg,#16221afc,#16221aeb),url('/assets/discovery-lattice.webp') center/cover}.application-tabs{gap:30px}.application-tabs button{font-size:.93rem}#products{scroll-margin-top:35px}@media(max-width:760px){.hero-art{opacity:.85;object-position:65% center}.hero-shade{background:linear-gradient(90deg,#08120ccc,#08120c78),linear-gradient(0deg,#0b1210,transparent 70%)}.qengine-feature{grid-template-columns:1fr;margin-top:40px}.hero-bottom{align-items:center;gap:10px}.hero-bottom .motion-toggle{margin:14px 0 0;width:100%;text-align:left;border:0;padding-left:0}.hero-bottom .hero-rule{width:24px}.application-tabs button{font-size:.875rem;min-width:122px}.product-copy h3{line-height:1.15}}
 
 @media(max-width:760px){.hero{padding-bottom:32px}.hero-bottom{position:static;margin-top:38px}}
+
+body.gated{overflow:hidden}
+.gate{position:fixed;inset:0;z-index:1000;display:flex;align-items:center;justify-content:center;padding:24px;background:#0b1210f2;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+.gate[hidden]{display:none}
+.gate-card{width:100%;max-width:400px;padding:36px 32px;border:1px solid var(--line);background:#101a15;box-shadow:0 30px 80px #00000080}
+.gate-card img{display:block;height:43px;width:auto;margin-bottom:24px}
+.gate-card h1{font-size:1.5rem;font-weight:600;line-height:1.2;margin:0 0 8px}
+.gate-card p{color:var(--muted);margin:0 0 24px}
+.gate-card label{display:block;font-size:.85rem;font-weight:500;margin-bottom:8px}
+.gate-card input{margin-bottom:12px;font-family:var(--mono);letter-spacing:.08em}
+.gate-card input[aria-invalid="true"]{border-color:#e0705c}
+.gate-error{color:#f0a496;font-size:.9rem;margin:0 0 12px}
+.gate-card .button{width:100%;margin-top:4px}
