@@ -2,3 +2,9 @@ node_modules
 dist
 *.local
 .DS_Store
+
+.tools/
+qa/
+.env
+.env.*
+!.env.example

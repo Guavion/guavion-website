@@ -1,67 +1,49 @@
-# Guavion Website
+# Guavion website
 
-An application-agnostic AI-orchestrated workflow platform landing page. Built with Vite, plain HTML/CSS/JS.
+A customer-facing Vite website for Guavion, grounded in the Guavion Deck PearX PDF and Qengine's official website.
 
-## Where is the code?
+## Local development
 
-- **This folder** — Open `Guavion Website` in Cursor or VS Code. All source files are here.
-- **GitHub** — After pushing, clone from:  
-  `git clone https://github.com/GuavionAdmin/GuavionWebsite.git`
+Use Node 22+ and npm:
 
-## Project structure
-
-```
-Guavion Website/
-├── index.html      # Main HTML
-├── package.json    # Dependencies (Vite)
-├── vite.config.js # Vite config
-├── src/
-│   ├── main.js     # Entry + nav + waitlist form
-│   └── style.css   # All styles
-└── README.md       # This file
+```sh
+npm ci
+npm run dev -- --host 127.0.0.1 --port 5173 --strictPort
 ```
 
-## Run locally
+## Build and production preview
 
-```bash
-npm install
-npm run dev
+```sh
+npm run build
+npm start
 ```
 
-Then open http://localhost:5173
+The Node server serves only `dist/` plus the private `/api/contact` handler at http://127.0.0.1:4173. For public deployment, run behind an HTTPS reverse proxy and set `CONTACT_ORIGIN` to the exact public origin. A static-only host cannot deliver the contact form; deploy the Node server or adapt `server/contact.js` to your host's server functions.
 
-## Build for production
+## Private enquiry email
 
-```bash
+Copy `.env.example` to `.env.local` and set these **server-only** values:
+
+- `RESEND_API_KEY`: a Resend sending key.
+- `CONTACT_FROM`: a sender on a verified domain in that Resend account.
+- `CONTACT_TO`: the private destination mailbox. Already filled in the local ignored file per the user's instruction.
+- `CONTACT_ORIGIN`: the exact public HTTPS origin (development defaults to http://127.0.0.1:5173).
+
+Never use a `VITE_` prefix for these values. Do not commit `.env.local` or deploy it into `dist/`. No destination mailbox is present in client code. The mail handler validates fields and origin, restricts message size, uses a honeypot and an in-process rate limiter, and never reports success unless the provider returns a message ID. Configure an edge rate limit when deploying multiple instances; do not trust arbitrary forwarded IP headers.
+
+Delivery is not activated until the mail key and verified sender are configured. The frontend retains the visitor's input and shows an honest error if delivery is unavailable. There is no fake successful submission or local storage of enquiries.
+
+## Validation
+
+```sh
+npm test
 npm run build
 ```
 
-Output is in `dist/`.
+Tests mock the mail provider; they do not send real emails. Test cases cover private recipient routing, reply-to, invalid input/origin, missing credentials, provider errors, and rate limiting.
 
-## Waitlist → Railway backend
+## Interactions and accessibility
 
-The waitlist form POSTs to your backend when `VITE_API_URL` is set.
+Application and workflow tabs support arrow keys, Home, and End. Mobile navigation supports Escape. Motion pauses outside the viewport and when the browser tab is hidden. Reduced-motion and save-data preferences start with still images; visitors can explicitly play or pause all motion. Product videos are illustrative visuals, not validated solver output.
 
-1. **Set the API URL** when building (e.g. your Railway backend):
-   ```bash
-   VITE_API_URL=https://your-app.up.railway.app npm run build
-   ```
-   Or in your host’s env (Vercel, Netlify, etc.) set `VITE_API_URL` to your Railway backend URL.
-
-2. **Backend contract:** Your Railway backend should expose:
-   - **POST** `/api/waitlist`
-   - **Body (JSON):** `{ name, email, company?, role?, interest?, message? }`
-   - **Response:** 2xx on success (e.g. 200 or 201). Store the payload in Postgres and return any JSON.
-
-If `VITE_API_URL` is not set, the form still works but only shows “Thanks!” and does not send data anywhere.
-
-## Push to GitHub (if you need to restore elsewhere)
-
-```bash
-git remote set-url origin https://github.com/GuavionAdmin/GuavionWebsite.git
-git add -A
-git commit -m "Update site"
-git push -u origin main
-```
-
-Then on another machine: `git clone https://github.com/GuavionAdmin/GuavionWebsite.git`
+See `docs/content-and-assets.md` for content decisions and asset provenance.
