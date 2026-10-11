@@ -20,6 +20,10 @@ npm start
 
 The Node server serves only `dist/` plus the private `/api/contact` handler at http://127.0.0.1:4173. For public deployment, run behind an HTTPS reverse proxy and set `CONTACT_ORIGIN` to the exact public origin. A static-only host cannot deliver the contact form; deploy the Node server or adapt `server/contact.js` to your host's server functions.
 
+## Vercel deployment
+
+The live site is deployed on Vercel. Vercel serves the static `dist/` build and runs `api/contact.js` as a serverless function; that file is a thin adapter around the same `server/contact.js` handler. Set the four variables below in the Vercel project's Production environment, never in the build output. Pushing to `main` triggers a production deploy.
+
 ## Private enquiry email
 
 Copy `.env.example` to `.env.local` and set these **server-only** values:
