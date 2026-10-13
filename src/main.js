@@ -77,11 +77,9 @@ form.addEventListener('submit', async e => {
 // Respect reduced motion and data saving; pause media when it leaves view.
 const motionPreference = matchMedia('(prefers-reduced-motion: reduce)')
 const videos = [...document.querySelectorAll('.motion-video')]
-const motionButtons = [...document.querySelectorAll('.motion-toggle')]
 let motionPaused = motionPreference.matches || Boolean(navigator.connection?.saveData)
 const visibleVideos = new Set()
 function refreshMotion() {
- motionButtons.forEach(button => { button.textContent = motionPaused ? 'Play motion' : 'Pause motion'; button.setAttribute('aria-pressed', String(motionPaused)) })
  videos.forEach(video => {
   if (motionPaused || document.hidden || !visibleVideos.has(video)) { video.pause(); return }
   if (!video.getAttribute('src')) video.src = video.dataset.src
@@ -90,7 +88,6 @@ function refreshMotion() {
 }
 const videoObserver = new IntersectionObserver(entries => { entries.forEach(entry => { if(entry.isIntersecting) visibleVideos.add(entry.target); else visibleVideos.delete(entry.target) }); refreshMotion() }, {threshold:.1})
 videos.forEach(video => videoObserver.observe(video))
-motionButtons.forEach(button => button.addEventListener('click', () => { motionPaused = !motionPaused; refreshMotion() }))
 motionPreference.addEventListener('change', e => { motionPaused = e.matches; refreshMotion() })
 document.addEventListener('visibilitychange', refreshMotion)
 refreshMotion()
