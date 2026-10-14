@@ -1,0 +1,112 @@
+{
+  ".vite/deps/_metadata.json": {
+    "mtime": 1791666268.0,
+    "ast_hash": "6ac04c0f68c56c5b6e0ef45467a85a3d",
+    "semantic_hash": ""
+  },
+  ".vite/deps/package.json": {
+    "mtime": 1791666268.0,
+    "ast_hash": "d0707362e90f00edd12435e9d3b9d71c",
+    "semantic_hash": ""
+  },
+  "api/contact.js": {
+    "mtime": 1791693668.4003496,
+    "ast_hash": "7342eecb0a98c45195e5aec20dcb2642",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1791666268.0,
+    "ast_hash": "994509f900368add18aeef0af3bf8382",
+    "semantic_hash": ""
+  },
+  "server/contact.js": {
+    "mtime": 1791666268.0,
+    "ast_hash": "57ec72c265cb41a6451734d1efa21fd5",
+    "semantic_hash": ""
+  },
+  "server/index.js": {
+    "mtime": 1791666268.0,
+    "ast_hash": "39c66780f91d07f04843f5270639a3be",
+    "semantic_hash": ""
+  },
+  "src/main.js": {
+    "mtime": 1791850913.1632452,
+    "ast_hash": "1d8b048b5254ae7f4059143921a6bf0e",
+    "semantic_hash": ""
+  },
+  "tests/contact.test.js": {
+    "mtime": 1791666268.0,
+    "ast_hash": "e1e8bc47ef0058c4502824b0575ba1fb",
+    "semantic_hash": ""
+  },
+  "vite.config.js": {
+    "mtime": 1791666268.0,
+    "ast_hash": "c2081d854ec9b43c36f348f347ea89f5",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1791693725.300203,
+    "ast_hash": "ebd510a0559b7fde093a5c6f9b297082",
+    "semantic_hash": ""
+  },
+  "docs/content-and-assets.md": {
+    "mtime": 1791666268.0,
+    "ast_hash": "f350890ce834003752e79d905b3ff63d",
+    "semantic_hash": ""
+  },
+  "docs/validation.md": {
+    "mtime": 1791666268.0,
+    "ast_hash": "e0f31289ec825c05500f2f2bf580ec5c",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1791850913.162875,
+    "ast_hash": "b0faa3a6b8724bda45318dbc0d29c5b0",
+    "semantic_hash": ""
+  },
+  "Guavion proposal.pdf": {
+    "mtime": 1791666268.0,
+    "ast_hash": "79d2ce6a0a269022987f5a1c4f9abaf3",
+    "semantic_hash": ""
+  },
+  "public/assets/ambient.webp": {
+    "mtime": 1791666268.0,
+    "ast_hash": "d451c4c21b7c6d0cb7d58b9f0ea8cb44",
+    "semantic_hash": ""
+  },
+  "public/assets/chopchopmol.webp": {
+    "mtime": 1791666268.0,
+    "ast_hash": "6956065c245975322ce4eb5748373e4a",
+    "semantic_hash": ""
+  },
+  "public/assets/discovery-lattice.webp": {
+    "mtime": 1791666268.0,
+    "ast_hash": "613867c5ff676169394e39bed181e1a0",
+    "semantic_hash": ""
+  },
+  "public/assets/guavion-logo.png": {
+    "mtime": 1791666268.0,
+    "ast_hash": "fbf5c1500e3bcf884b78c791a2fcb3ad",
+    "semantic_hash": ""
+  },
+  "public/assets/loop.webp": {
+    "mtime": 1791666268.0,
+    "ast_hash": "af4184787a3004322e6003516b118160",
+    "semantic_hash": ""
+  },
+  "public/favicon.png": {
+    "mtime": 1791666268.0,
+    "ast_hash": "885e1d3298224764f53d61a041580a5f",
+    "semantic_hash": ""
+  },
+  "public/assets/ambient.mp4": {
+    "mtime": 1791666268.0,
+    "ast_hash": "b690a2989b08821f63a36cd3a78c18eb",
+    "semantic_hash": ""
+  },
+  "public/assets/loop.mp4": {
+    "mtime": 1791666268.0,
+    "ast_hash": "7b1061a17d245296be1945cf005392c4",
+    "semantic_hash": ""
+  }
+}

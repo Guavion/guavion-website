@@ -1,0 +1,1405 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": ".vite/deps/package.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "vite_deps_package",
+      "community": 9,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": ".vite/deps/package.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "vite_deps_package_type",
+      "community": 9,
+      "norm_label": "type"
+    },
+    {
+      "label": "contact.js",
+      "file_type": "code",
+      "source_file": "api/contact.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "api_contact",
+      "community": 1,
+      "norm_label": "contact.js"
+    },
+    {
+      "label": "handler()",
+      "file_type": "code",
+      "source_file": "api/contact.js",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "api_contact_handler",
+      "community": 1,
+      "norm_label": "handler()"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "package",
+      "community": 3,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "package_name",
+      "community": 3,
+      "norm_label": "name"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "package_private",
+      "community": 3,
+      "norm_label": "private"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "package_version",
+      "community": 3,
+      "norm_label": "version"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "package_type",
+      "community": 3,
+      "norm_label": "type"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "package_scripts",
+      "community": 4,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "package_scripts_dev",
+      "community": 4,
+      "norm_label": "dev"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "package_scripts_build",
+      "community": 4,
+      "norm_label": "build"
+    },
+    {
+      "label": "preview",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "package_scripts_preview",
+      "community": 4,
+      "norm_label": "preview"
+    },
+    {
+      "label": "start",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "package_scripts_start",
+      "community": 4,
+      "norm_label": "start"
+    },
+    {
+      "label": "test",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "package_scripts_test",
+      "community": 4,
+      "norm_label": "test"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "package_devdependencies",
+      "community": 3,
+      "norm_label": "devdependencies"
+    },
+    {
+      "label": "vite",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "package_devdependencies_vite",
+      "community": 3,
+      "norm_label": "vite"
+    },
+    {
+      "label": "contact.js",
+      "file_type": "code",
+      "source_file": "server/contact.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "server_contact",
+      "community": 1,
+      "norm_label": "contact.js"
+    },
+    {
+      "label": "interests",
+      "file_type": "code",
+      "source_file": "server/contact.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "server_contact_interests",
+      "community": 1,
+      "norm_label": "interests"
+    },
+    {
+      "label": "limits",
+      "file_type": "code",
+      "source_file": "server/contact.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "server_contact_limits",
+      "community": 1,
+      "norm_label": "limits"
+    },
+    {
+      "label": "json()",
+      "file_type": "code",
+      "source_file": "server/contact.js",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "server_contact_json",
+      "community": 1,
+      "norm_label": "json()"
+    },
+    {
+      "label": "handleContact()",
+      "file_type": "code",
+      "source_file": "server/contact.js",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "server_contact_handlecontact",
+      "community": 1,
+      "norm_label": "handlecontact()"
+    },
+    {
+      "label": "contactMiddleware()",
+      "file_type": "code",
+      "source_file": "server/contact.js",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "server_contact_contactmiddleware",
+      "community": 1,
+      "norm_label": "contactmiddleware()"
+    },
+    {
+      "label": "index.js",
+      "file_type": "code",
+      "source_file": "server/index.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "server_index",
+      "community": 6,
+      "norm_label": "index.js"
+    },
+    {
+      "label": "root",
+      "file_type": "code",
+      "source_file": "server/index.js",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "server_index_root",
+      "community": 6,
+      "norm_label": "root"
+    },
+    {
+      "label": "port",
+      "file_type": "code",
+      "source_file": "server/index.js",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "server_index_port",
+      "community": 6,
+      "norm_label": "port"
+    },
+    {
+      "label": "types",
+      "file_type": "code",
+      "source_file": "server/index.js",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "server_index_types",
+      "community": 6,
+      "norm_label": "types"
+    },
+    {
+      "label": "main.js",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main",
+      "community": 0,
+      "norm_label": "main.js"
+    },
+    {
+      "label": "gate",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "src_main_gate",
+      "community": 0,
+      "norm_label": "gate"
+    },
+    {
+      "label": "gateForm",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "src_main_gateform",
+      "community": 0,
+      "norm_label": "gateform"
+    },
+    {
+      "label": "gateCode",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "src_main_gatecode",
+      "community": 0,
+      "norm_label": "gatecode"
+    },
+    {
+      "label": "gateError",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "src_main_gateerror",
+      "community": 0,
+      "norm_label": "gateerror"
+    },
+    {
+      "label": "gatedRegions",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "src_main_gatedregions",
+      "community": 0,
+      "norm_label": "gatedregions"
+    },
+    {
+      "label": "nav",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "src_main_nav",
+      "community": 0,
+      "norm_label": "nav"
+    },
+    {
+      "label": "menu",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "src_main_menu",
+      "community": 0,
+      "norm_label": "menu"
+    },
+    {
+      "label": "closeMenu()",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "src_main_closemenu",
+      "community": 0,
+      "norm_label": "closemenu()"
+    },
+    {
+      "label": "applications",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "src_main_applications",
+      "community": 0,
+      "norm_label": "applications"
+    },
+    {
+      "label": "setupTabs()",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "src_main_setuptabs",
+      "community": 0,
+      "norm_label": "setuptabs()"
+    },
+    {
+      "label": "steps",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "src_main_steps",
+      "community": 0,
+      "norm_label": "steps"
+    },
+    {
+      "label": "selectStep",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "src_main_selectstep",
+      "community": 0,
+      "norm_label": "selectstep"
+    },
+    {
+      "label": "form",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "src_main_form",
+      "community": 0,
+      "norm_label": "form"
+    },
+    {
+      "label": "status",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "src_main_status",
+      "community": 0,
+      "norm_label": "status"
+    },
+    {
+      "label": "motionPreference",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L78",
+      "_origin": "ast",
+      "id": "src_main_motionpreference",
+      "community": 0,
+      "norm_label": "motionpreference"
+    },
+    {
+      "label": "videos",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L79",
+      "_origin": "ast",
+      "id": "src_main_videos",
+      "community": 0,
+      "norm_label": "videos"
+    },
+    {
+      "label": "visibleVideos",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L81",
+      "_origin": "ast",
+      "id": "src_main_visiblevideos",
+      "community": 0,
+      "norm_label": "visiblevideos"
+    },
+    {
+      "label": "refreshMotion()",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L82",
+      "_origin": "ast",
+      "id": "src_main_refreshmotion",
+      "community": 0,
+      "norm_label": "refreshmotion()"
+    },
+    {
+      "label": "videoObserver",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L89",
+      "_origin": "ast",
+      "id": "src_main_videoobserver",
+      "community": 0,
+      "norm_label": "videoobserver"
+    },
+    {
+      "label": "contact.test.js",
+      "file_type": "code",
+      "source_file": "tests/contact.test.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "tests_contact_test",
+      "community": 7,
+      "norm_label": "contact.test.js"
+    },
+    {
+      "label": "env",
+      "file_type": "code",
+      "source_file": "tests/contact.test.js",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "tests_contact_test_env",
+      "community": 7,
+      "norm_label": "env"
+    },
+    {
+      "label": "data",
+      "file_type": "code",
+      "source_file": "tests/contact.test.js",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "tests_contact_test_data",
+      "community": 7,
+      "norm_label": "data"
+    },
+    {
+      "label": "input()",
+      "file_type": "code",
+      "source_file": "tests/contact.test.js",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "tests_contact_test_input",
+      "community": 7,
+      "norm_label": "input()"
+    },
+    {
+      "label": "vite.config.js",
+      "file_type": "code",
+      "source_file": "vite.config.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "vite_config",
+      "community": 1,
+      "norm_label": "vite.config.js"
+    },
+    {
+      "label": "configureServer()",
+      "file_type": "code",
+      "source_file": "vite.config.js",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "vite_config_configureserver",
+      "community": 1,
+      "norm_label": "configureserver()"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme",
+      "community": 2,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Guavion website",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme_guavion_website",
+      "community": 2,
+      "norm_label": "guavion website"
+    },
+    {
+      "label": "Local development",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "readme_local_development",
+      "community": 2,
+      "norm_label": "local development"
+    },
+    {
+      "label": "Build and production preview",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "readme_build_and_production_preview",
+      "community": 2,
+      "norm_label": "build and production preview"
+    },
+    {
+      "label": "Vercel deployment",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "readme_vercel_deployment",
+      "community": 2,
+      "norm_label": "vercel deployment"
+    },
+    {
+      "label": "Private enquiry email",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "readme_private_enquiry_email",
+      "community": 2,
+      "norm_label": "private enquiry email"
+    },
+    {
+      "label": "Validation",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "readme_validation",
+      "community": 2,
+      "norm_label": "validation"
+    },
+    {
+      "label": "Interactions and accessibility",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "readme_interactions_and_accessibility",
+      "community": 2,
+      "norm_label": "interactions and accessibility"
+    },
+    {
+      "label": "content-and-assets.md",
+      "file_type": "document",
+      "source_file": "docs/content-and-assets.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_content_and_assets",
+      "community": 5,
+      "norm_label": "content-and-assets.md"
+    },
+    {
+      "label": "Content and asset provenance",
+      "file_type": "document",
+      "source_file": "docs/content-and-assets.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_content_and_assets_content_and_asset_provenance",
+      "community": 5,
+      "norm_label": "content and asset provenance"
+    },
+    {
+      "label": "Source of truth",
+      "file_type": "document",
+      "source_file": "docs/content-and-assets.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "docs_content_and_assets_source_of_truth",
+      "community": 5,
+      "norm_label": "source of truth"
+    },
+    {
+      "label": "Design references",
+      "file_type": "document",
+      "source_file": "docs/content-and-assets.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "docs_content_and_assets_design_references",
+      "community": 5,
+      "norm_label": "design references"
+    },
+    {
+      "label": "Bundled assets",
+      "file_type": "document",
+      "source_file": "docs/content-and-assets.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "docs_content_and_assets_bundled_assets",
+      "community": 5,
+      "norm_label": "bundled assets"
+    },
+    {
+      "label": "validation.md",
+      "file_type": "document",
+      "source_file": "docs/validation.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_validation",
+      "community": 8,
+      "norm_label": "validation.md"
+    },
+    {
+      "label": "Validation",
+      "file_type": "document",
+      "source_file": "docs/validation.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_validation_validation",
+      "community": 8,
+      "norm_label": "validation"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".vite/deps/package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "vite_deps_package",
+      "target": "vite_deps_package_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/contact.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "api_contact",
+      "target": "api_contact_handler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "api/contact.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "api_contact",
+      "target": "server_contact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "api/contact.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "api_contact",
+      "target": "server_contact_handlecontact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "api/contact.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "api_contact_handler",
+      "target": "server_contact_handlecontact"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_devdependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_private",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_dev",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_preview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_start",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_vite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/contact.js",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "server_contact",
+      "target": "server_contact_contactmiddleware",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/contact.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "server_contact",
+      "target": "server_contact_handlecontact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/contact.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "server_contact",
+      "target": "server_contact_interests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/contact.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "server_contact",
+      "target": "server_contact_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/contact.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "server_contact",
+      "target": "server_contact_limits",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "server/index.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "server_index",
+      "target": "server_contact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contact.test.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "tests_contact_test",
+      "target": "server_contact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "vite.config.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "vite_config",
+      "target": "server_contact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "server/contact.js",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "server_contact_contactmiddleware",
+      "target": "server_contact_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "server/contact.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "server_contact_handlecontact",
+      "target": "server_contact_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "server/contact.js",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "server_contact_contactmiddleware",
+      "target": "server_contact_handlecontact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contact.test.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "tests_contact_test",
+      "target": "server_contact_handlecontact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "server/index.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "server_index",
+      "target": "server_contact_contactmiddleware",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "vite.config.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "vite_config",
+      "target": "server_contact_contactmiddleware",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vite.config.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "vite_config_configureserver",
+      "target": "server_contact_contactmiddleware"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/index.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "server_index",
+      "target": "server_index_port",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/index.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "server_index",
+      "target": "server_index_root",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/index.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "server_index",
+      "target": "server_index_types",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_main_applications",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_main_closemenu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_main_form",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_main_gate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_main_gatecode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_main_gatedregions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_main_gateerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_main_gateform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_main_menu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_main_motionpreference",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_main_nav",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "indirect_call",
+      "confidence": "INFERRED",
+      "source_file": "src/main.js",
+      "source_location": "L92",
+      "weight": 1.0,
+      "context": "argument",
+      "source": "src_main",
+      "target": "src_main_refreshmotion",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_main_selectstep",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_main_setuptabs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_main_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_main_steps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_main_videoobserver",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_main_videos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_main_visiblevideos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contact.test.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "tests_contact_test",
+      "target": "tests_contact_test_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contact.test.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "tests_contact_test",
+      "target": "tests_contact_test_env",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contact.test.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "tests_contact_test",
+      "target": "tests_contact_test_input",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "vite.config.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "vite_config",
+      "target": "vite_config_configureserver",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_guavion_website",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "readme_guavion_website",
+      "target": "readme_build_and_production_preview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "readme_guavion_website",
+      "target": "readme_interactions_and_accessibility",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "readme_guavion_website",
+      "target": "readme_local_development",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "readme_guavion_website",
+      "target": "readme_private_enquiry_email",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "readme_guavion_website",
+      "target": "readme_validation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "readme_guavion_website",
+      "target": "readme_vercel_deployment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/content-and-assets.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_content_and_assets",
+      "target": "docs_content_and_assets_content_and_asset_provenance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/content-and-assets.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "docs_content_and_assets_content_and_asset_provenance",
+      "target": "docs_content_and_assets_bundled_assets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/content-and-assets.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "docs_content_and_assets_content_and_asset_provenance",
+      "target": "docs_content_and_assets_design_references",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/content-and-assets.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_content_and_assets_content_and_asset_provenance",
+      "target": "docs_content_and_assets_source_of_truth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/validation.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_validation",
+      "target": "docs_validation_validation",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "80b623ad18ad9592af2113a786e8cc627e36cb8f"
+}

@@ -1,13 +1,4 @@
 import './style.css'
-const gate = document.querySelector('#gate'), gateForm = document.querySelector('#gate-form'), gateCode = document.querySelector('#gate-code'), gateError = document.querySelector('#gate-error')
-const GATE_CODE = 'Guavion-0987', gatedRegions = document.querySelectorAll('header, main, footer')
-document.body.classList.add('gated')
-gateForm.addEventListener('submit', e => {
-  e.preventDefault()
-  if (gateCode.value.trim() !== GATE_CODE) { gateError.hidden = false; gateCode.setAttribute('aria-invalid', 'true'); gateCode.select(); return }
-  gate.hidden = true; document.body.classList.remove('gated'); gatedRegions.forEach(el => el.removeAttribute('inert'))
-})
-gateCode.addEventListener('input', () => { gateError.hidden = true; gateCode.removeAttribute('aria-invalid') })
 const nav = document.querySelector('#navigation'), menu = document.querySelector('.menu-toggle')
 function closeMenu() { nav.classList.remove('open'); menu.setAttribute('aria-expanded', 'false'); menu.setAttribute('aria-label', 'Open navigation') }
 menu.addEventListener('click', () => { const open = menu.getAttribute('aria-expanded') !== 'true'; nav.classList.toggle('open', open); menu.setAttribute('aria-expanded', String(open)); menu.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation') })

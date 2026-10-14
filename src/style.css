@@ -8,15 +8,15 @@
 
 @media(max-width:760px){.hero{padding-bottom:32px}.hero-bottom{position:static;margin-top:38px}}
 
-body.gated{overflow:hidden}
-.gate{position:fixed;inset:0;z-index:1000;display:flex;align-items:center;justify-content:center;padding:24px;background:#0b1210f2;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
-.gate[hidden]{display:none}
-.gate-card{width:100%;max-width:400px;padding:36px 32px;border:1px solid var(--line);background:#101a15;box-shadow:0 30px 80px #00000080}
-.gate-card img{display:block;height:43px;width:auto;margin-bottom:24px}
-.gate-card h1{font-size:1.5rem;font-weight:600;line-height:1.2;margin:0 0 8px}
-.gate-card p{color:var(--muted);margin:0 0 24px}
-.gate-card label{display:block;font-size:.85rem;font-weight:500;margin-bottom:8px}
-.gate-card input{margin-bottom:12px;font-family:var(--mono);letter-spacing:.08em}
-.gate-card input[aria-invalid="true"]{border-color:#e0705c}
-.gate-error{color:#f0a496;font-size:.9rem;margin:0 0 12px}
-.gate-card .button{width:100%;margin-top:4px}
+
+
+
+
+
+
+
+
+
+
+
+
